@@ -2,20 +2,11 @@
 
 ![Logo](assets/logo.png) -->
 
-<div style="
-  display:flex;
-  align-items:center;
-  gap:16px;
-  padding:14px 24px;
-  background:#0f3b63;
-  border-radius:12px;
-">
+<p align="center">
+  <img src="assets/logo.png" width="150"/>
+</p>
 
-  <img src="assets/logo.png" alt="YG logo" style="height:56px;">
-  <h1 style="margin:0; color:white; font-size:1.6rem;">
-    Florence Nightingale's Rose Diagram — A Replication
-  </h1>
-</div>
+<h1 align="center">Florence Nightingale's Rose Diagram — A Replication</h1>
 
 ## The Story
 
