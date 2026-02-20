@@ -1,6 +1,12 @@
-# Florence Nightingale's Rose Diagram — A Replication
+<!-- # Florence Nightingale's Rose Diagram — A Replication
 
-![Logo](assets/logo.png)
+![Logo](assets/logo.png) -->
+
+<p align="center">
+  <img src="assets/logo.png" width="180"/>
+</p>
+
+<h1 align="center">Florence Nightingale's Rose Diagram — A Replication</h1>
 
 ## The Story
 
