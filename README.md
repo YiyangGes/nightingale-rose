@@ -6,7 +6,7 @@
   <img src="assets/logo.png" width="150"/>
 </p>
 
-<h1 align="center">Florence Nightingale's Rose Diagram \n — A Replication</h1>
+<h1 align="center">Florence Nightingale's Rose Diagram — A Replication</h1>
 
 ## The Story
 
