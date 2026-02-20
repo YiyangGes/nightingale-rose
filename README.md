@@ -3,7 +3,7 @@
 ![Logo](assets/logo.png) -->
 
 <p align="center">
-  <img src="assets/logo.png" width="180"/>
+  <img src="assets/logo.png" width="150"/>
 </p>
 
 <h1 align="center">Florence Nightingale's Rose Diagram — A Replication</h1>
