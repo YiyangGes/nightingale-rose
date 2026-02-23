@@ -26,11 +26,8 @@ Since their is no exact count of mortality, we need to get the wedge areas by ou
     * Use a photo editor to make the wedges area transparent, then save each wedge area as a PNG file with alpha (or transperancy) channel.
     * Save all wedges area with name yyyy-mm_(Cause of death).png to one folder.
     * below is an example of a transperant wedge area
-
 <!-- ![An example of transperant wedge area](assets/image.png) -->
-
 <p align="center"> <img src="assets/image.png" width="30%"> </p>
-
 
 2. Count the pixel that is transperant from PNGs to get the pixel number of each wedges using Python. Save the pixel number to csv for later processing.
 
