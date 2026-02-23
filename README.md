@@ -48,8 +48,8 @@ radii_disease = np.sqrt(df['disease'])
 ## The Visualization
 
 <p align="center">
-  <img src="output/recreation.png" width="420" alt="Nightingale Rose Diagram 1854–1855">
-  <img src="output/recreation2.png" width="420" alt="Nightingale Rose Diagram 1855–1856">
+  <img src="output/recreation.png"  alt="Nightingale Rose Diagram 1854–1855">
+  <img src="output/recreation2.png" alt="Nightingale Rose Diagram 1855–1856">
 </p>
 <p align="center"> <img src="output/area_plot.png" width="700"> </p>
 <p align="center"> <img src="output/line_plots.png" width="700"> </p>
