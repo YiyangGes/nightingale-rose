@@ -41,12 +41,6 @@ radii_disease = np.sqrt(df['disease'])
 
 ## The Visualization
 
-<!-- ![Rose Diagram](output/nightingale_rose.png) -->
-<!-- ![1854-1855](output/recreation.png){#plt-recreation1}
-![1855-1856](output/recreation2.png){#plt-recreation2}
-![Alt1](output/area_plot.png){#plt-recreation3}
-![Alt2](output/line_plots.png){#plt-recreation3}
-![Alt3](output/stacked_bar_new.png){#plt-recreation3} -->
 <p align="center">
   <img src="output/recreation.png" width="420" alt="Nightingale Rose Diagram 1854–1855">
   <img src="output/recreation2.png" width="420" alt="Nightingale Rose Diagram 1855–1856">
