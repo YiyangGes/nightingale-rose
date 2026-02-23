@@ -12,7 +12,10 @@
 
 During the Crimean War (1853-1856), Florence Nightingale collected data revealing that the majority of British military deaths resulted not from combat wounds but from preventable diseases caused by poor sanitary conditions. To communicate this sanitary reform crisis to policymakers, she created her iconic "coxcomb" or polar area diagram—a pioneering data visualization that made mortality patterns immediately apparent through proportional wedge areas. Her compelling visual argument directly influenced British military policy, leading to comprehensive hospital reforms and establishing data visualization as a powerful tool for driving evidence-based change.
 
-![Nightingale-Diagram](assets/3815a Large.jpg)
+<!-- ![Nightingale-Diagram](assets/3815a Large.jpg) -->
+
+<p align="center"> <img src="assets/3815a Large.jpg" height="50%"> </p>
+
 
 ## How the Data Was Collected
 
@@ -24,7 +27,10 @@ Since their is no exact count of mortality, we need to get the wedge areas by ou
     * Save all wedges area with name yyyy-mm_(Cause of death).png to one folder.
     * below is an example of a transperant wedge area
 
-![An example of transperant wedge area](assets/image.png)
+<!-- ![An example of transperant wedge area](assets/image.png) -->
+
+<p align="center"> <img src="assets/image.png" width="30%"> </p>
+
 
 2. Count the pixel that is transperant from PNGs to get the pixel number of each wedges using Python. Save the pixel number to csv for later processing.
 
