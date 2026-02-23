@@ -29,7 +29,7 @@ Since their is no exact count of mortality, we need to get the wedge areas by ou
 <!-- ![An example of transperant wedge area](assets/image.png) -->
 <p align="center"> <img src="assets/image.png" width="30%"> </p>
 
-2. Count the pixel that is transperant from PNGs to get the pixel number of each wedges using Python. Save the pixel number to csv for later processing.
+1. Count the pixel that is transperant from PNGs to get the pixel number of each wedges using Python. Save the pixel number to csv for later processing.
 
 ## The Math and Visualization
 
