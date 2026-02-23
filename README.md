@@ -51,16 +51,22 @@ radii_disease = np.sqrt(df['disease'])
   <img src="output/recreation.png" width="400" alt="Nightingale Rose Diagram 1854–1855">
   <img src="output/recreation2.png" width="400" alt="Nightingale Rose Diagram 1855–1856">
 </p>
-<p align="center"> <img src="output/area_plot.png" width="700"> </p>
-<p align="center"> <img src="output/line_plots.png" width="700"> </p>
-<p align="center"> <img src="output/stacked_bar_new.png" width="700"> </p>
+<br>
+<p align="center"> <img src="output/area_plot.png" height="50%"> </p>
+<br>
+<p align="center"> <img src="output/line_plots.png" height="50%"> </p>
+<br>
+<p align="center"> <img src="output/stacked_bar_new.png" height="50%"> </p>
 
 ## Key Insights
 
-- [Bullet about the left diagram (before reforms).]
-- [Bullet about the right diagram (after reforms).]
-- [Bullet about what this shows about data and policy change.]
-- The plot shows the great contrast of the propotion between the blue area (disease), and the red area (wounds). The contrast make it convincing that sanitation is indeed a significant factor in mortality counts. There might be limitation for polar chart too. Firstly, it would be hard to show to overall trend of the data. Secondly, for 2 similar counts, it would be hard to tell the difference because human is not sensitive to area. The limitations would be compensate by some alternative visualization ways.
+<!-- - [Bullet about the left diagram (before reforms).]
+- [Bullet about the right diagram (after reforms).] -->
+<!-- - [Bullet about what this shows about data and policy change.] -->
+- Before sanitation reforms (1854–1855): Deaths from disease overwhelmingly dominated battlefield and other causes, with dramatic monthly spikes showing that preventable illness—not combat—was the primary driver of mortality.
+- After sanitation reforms (1855–1856): Disease-related deaths declined sharply and remained relatively low, making overall mortality more stable and demonstrating the substantial impact of improved hygiene and medical practices.
+- The plot shows the great contrast of the propotion between the blue area (disease), and the red area (wounds). 
+- The contrast make it convincing that sanitation is indeed a significant factor in mortality counts. There might be limitation for polar chart too. Firstly, it would be hard to show to overall trend of the data. Secondly, for 2 similar counts, it would be hard to tell the difference because human is not sensitive to area. The limitations would be compensate by some alternative visualization ways.
 
 ## Technical Details
 
