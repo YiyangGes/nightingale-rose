@@ -52,11 +52,11 @@ radii_disease = np.sqrt(df['disease'])
   <img src="output/recreation2.png" width="400" alt="Nightingale Rose Diagram 1855–1856">
 </p>
 <br>
-<p align="center"> <img src="output/area_plot.png" height="400"> </p>
+<p align="center"> <img src="output/area_plot.png" width="70%"> </p>
 <br>
-<p align="center"> <img src="output/line_plots.png" height="400"> </p>
+<p align="center"> <img src="output/line_plots.png" width="70%"> </p>
 <br>
-<p align="center"> <img src="output/stacked_bar_new.png" height="400"> </p>
+<p align="center"> <img src="output/stacked_bar_new.png" width="70%"> </p>
 
 ## Key Insights
 
