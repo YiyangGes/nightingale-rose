@@ -12,20 +12,21 @@
 
 During the Crimean War (1853-1856), Florence Nightingale collected data revealing that the majority of British military deaths resulted not from combat wounds but from preventable diseases caused by poor sanitary conditions. To communicate this sanitary reform crisis to policymakers, she created her iconic "coxcomb" or polar area diagram—a pioneering data visualization that made mortality patterns immediately apparent through proportional wedge areas. Her compelling visual argument directly influenced British military policy, leading to comprehensive hospital reforms and establishing data visualization as a powerful tool for driving evidence-based change.
 
-![Nightingale's Diagram](assets/3815a Large.jpg){#fig-rose}
+![Nightingale's Diagram](assets/3815a Large.jpg)
 
 ## How the Data Was Collected
 
 Since their is no exact count of mortality, we need to get the wedge areas by ourself. Here is how to do it.
 
-(@) Take out individual wedge areas
-    * Open the original diagram (@fig-rose) using some painting applications (I am using Krita), and trace outline of wedges.
+1. Take out individual wedge areas
+    * Open the original diagram using some painting applications (I am using Krita), and trace outline of wedges.
     * Use a photo editor to make the wedges area transparent, then save each wedge area as a PNG file with alpha (or transperancy) channel.
     * Save all wedges area with name yyyy-mm_(Cause of death).png to one folder.
+    * below is an example of a transperant wedge area
 
-![An example of transperant wedge area](assets/image.png){width=30%}
+![An example of transperant wedge area](assets/image.png)
 
-(@) Count the pixel that is transperant from PNGs to get the pixel number of each wedges using Python. Save the pixel number to csv for later processing.
+2. Count the pixel that is transperant from PNGs to get the pixel number of each wedges using Python. Save the pixel number to csv for later processing.
 
 ## The Math and Visualization
 
@@ -41,15 +42,11 @@ radii_disease = np.sqrt(df['disease'])
 ## The Visualization
 
 <!-- ![Rose Diagram](output/nightingale_rose.png) -->
-
-::: {#fig-recreations layout-ncol=2}
-
 ![1854-1855](output/recreation.png){#plt-recreation1}
-
 ![1855-1856](output/recreation2.png){#plt-recreation2}
-
-Recreation of Nightingale's Rose diagram 
-:::
+![Alt1](output/area_plot.png){#plt-recreation3}
+![Alt2](output/line_plots.png){#plt-recreation3}
+![Alt3](output/stacked_bar_new.png){#plt-recreation3}
 
 ## Key Insights
 
@@ -61,25 +58,47 @@ Recreation of Nightingale's Rose diagram
 ## Technical Details
 
 - Language: Python  
-- Libraries: [list your main libraries]  
+- Libraries:
+  - `datetime`
+  - `PIL.image`
+  - `numpy`
+  - `pandas`
+  - `matplotlib.pyplot`
 - Files:
-  - `src/digitize_app.py`  
-  - `src/plot_rose.py`  
-  - `data/coordinates.json`  
-  - `data/nightingale_computed.csv`  
+  <!-- - `src/digitize_app.py`   -->
+  - `src/Nightingale_Final_Submission.ipynb`  
+  <!-- - `data/coordinates.json`   -->
+  - `data/result.csv`  
 
 ## How to Run
 
-1. Clone this repository.  
+1. Clone this repository.
+2. Install requirements
+3. Run the Data Visualization section of jupyter notebook
+<!-- 1. Clone this repository.  
 2. Create and activate a virtual environment (optional).  
 3. Install requirements (if you have a `requirements.txt`).  
 4. Run the plotting script:  
-   `python src/plot_rose.py`  
+   `python src/plot_rose.py`   -->
 
 ## What I Learned
 
-[2–3 sentences written entirely by you: technical lessons and reflections.]
+**Challenge of Stacked bar chart**: The challenge of Stacked bar chart is that the contrast of value among months can be very large. To address the issue of large contrasts between months, which makes it difficult to see months with smaller counts, I adjusted the x-axis limit by cutting it by 10,000 to hide the longer part of some bars. ```ax.set_xlim(0, max(df[:12]['disease'])-10000)```
 
 ## References
 
-- [Short list of sources or links you used.]
+https://scientificallysound.org/2017/09/07/matplotlib-subplots/
+
+https://matplotlib.org/stable/gallery/lines_bars_and_markers/horizontal_barchart_distribution.html
+
+https://jingwen-z.github.io/data-viz-with-matplotlib-series7-area-chart/
+
+https://towardsdatascience.com/enhance-your-polar-bar-charts-with-matplotlib-c08e332ec01c/
+
+https://towardsdatascience.com/7-steps-to-help-you-make-your-matplotlib-bar-charts-beautiful-f87419cb14cb/
+
+https://matplotlib.org/3.2.2/gallery/lines_bars_and_markers/bar_stacked.html#sphx-glr-gallery-lines-bars-and-markers-bar-stacked-py
+
+https://stackoverflow.com
+
+https://matplotlib.org/stable/
