@@ -19,17 +19,21 @@ During the Crimean War (1853-1856), Florence Nightingale collected data revealin
 
 ## How the Data Was Collected
 
-Since their is no exact count of mortality, we need to get the wedge areas by ourself. Here is how to do it.
+Since there is no exact mortality count, we estimate it by measuring the wedge areas ourselves. Here’s the workflow:
 
-1. Take out individual wedge areas
-    * Open the original diagram using some painting applications (I am using Krita), and trace outline of wedges.
-    * Use a photo editor to make the wedges area transparent, then save each wedge area as a PNG file with alpha (or transperancy) channel.
-    * Save all wedges area with name yyyy-mm_(Cause of death).png to one folder.
-    * below is an example of a transperant wedge area
-<!-- ![An example of transperant wedge area](assets/image.png) -->
-<p align="center"> <img src="assets/image.png" width="30%"> </p>
+1. Extract individual wedge areas  
+   - Open the original diagram in a drawing app (I used Krita) and trace the outline of each wedge.  
+   - Use a photo editor to make the wedge area transparent, then save each wedge as a PNG with an alpha (transparency) channel.  
+   - Save all wedge images in one folder using the format `yyyy-mm_(cause_of_death).png`.  
+   - Example of a transparent wedge area:
 
-1. Count the pixel that is transperant from PNGs to get the pixel number of each wedges using Python. Save the pixel number to csv for later processing.
+   <p align="center">
+     <img src="assets/image.png" width="30%">
+   </p>
+
+1. Count transparent pixels  
+   - Use Python to count the transparent pixels in each PNG to estimate the wedge area.  
+   - Save the pixel counts to a CSV for later processing.
 
 ## The Math and Visualization
 
