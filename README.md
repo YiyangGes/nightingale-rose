@@ -14,7 +14,7 @@ During the Crimean War (1853-1856), Florence Nightingale collected data revealin
 
 <!-- ![Nightingale-Diagram](assets/3815a Large.jpg) -->
 
-<p align="center"> <img src="assets/3815a Large.jpg" height="50%"> </p>
+<p align="center"> <img src="assets/3815a Large.jpg" height="450"> </p>
 
 
 ## How the Data Was Collected
@@ -52,11 +52,11 @@ radii_disease = np.sqrt(df['disease'])
   <img src="output/recreation2.png" width="400" alt="Nightingale Rose Diagram 1855–1856">
 </p>
 <br>
-<p align="center"> <img src="output/area_plot.png" height="50%"> </p>
+<p align="center"> <img src="output/area_plot.png" height="400"> </p>
 <br>
-<p align="center"> <img src="output/line_plots.png" height="50%"> </p>
+<p align="center"> <img src="output/line_plots.png" height="400"> </p>
 <br>
-<p align="center"> <img src="output/stacked_bar_new.png" height="50%"> </p>
+<p align="center"> <img src="output/stacked_bar_new.png" height="400"> </p>
 
 ## Key Insights
 
