@@ -12,7 +12,7 @@
 
 During the Crimean War (1853-1856), Florence Nightingale collected data revealing that the majority of British military deaths resulted not from combat wounds but from preventable diseases caused by poor sanitary conditions. To communicate this sanitary reform crisis to policymakers, she created her iconic "coxcomb" or polar area diagram—a pioneering data visualization that made mortality patterns immediately apparent through proportional wedge areas. Her compelling visual argument directly influenced British military policy, leading to comprehensive hospital reforms and establishing data visualization as a powerful tool for driving evidence-based change.
 
-![Nightingale's Diagram](assets/3815a Large.jpg)
+![Nightingale-Diagram](assets/3815a Large.jpg)
 
 ## How the Data Was Collected
 
@@ -42,11 +42,18 @@ radii_disease = np.sqrt(df['disease'])
 ## The Visualization
 
 <!-- ![Rose Diagram](output/nightingale_rose.png) -->
-![1854-1855](output/recreation.png){#plt-recreation1}
+<!-- ![1854-1855](output/recreation.png){#plt-recreation1}
 ![1855-1856](output/recreation2.png){#plt-recreation2}
 ![Alt1](output/area_plot.png){#plt-recreation3}
 ![Alt2](output/line_plots.png){#plt-recreation3}
-![Alt3](output/stacked_bar_new.png){#plt-recreation3}
+![Alt3](output/stacked_bar_new.png){#plt-recreation3} -->
+<p align="center">
+  <img src="output/recreation.png" width="420" alt="Nightingale Rose Diagram 1854–1855">
+  <img src="output/recreation2.png" width="420" alt="Nightingale Rose Diagram 1855–1856">
+</p>
+<p align="center"> <img src="output/area_plot.png" width="700"> </p>
+<p align="center"> <img src="output/line_plots.png" width="700"> </p>
+<p align="center"> <img src="output/stacked_bar_new.png" width="700"> </p>
 
 ## Key Insights
 
